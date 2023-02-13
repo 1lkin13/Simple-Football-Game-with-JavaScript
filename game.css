@@ -1,0 +1,95 @@
+.div{
+
+width: 80%;
+height: 500px;
+
+margin: auto;
+border: 5px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+  background-image: linear-gradient(90deg, rgba(39, 30, 30, 0.1) 0%, rgba(31, 27, 27, 0.1) 100%),url(https://w7.pngwing.com/pngs/487/704/png-transparent-football-pitch-graphy-american-football-football-field-text-photography-computer-wallpaper.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+}
+body{
+  background-image: url(https://i2-prod.chroniclelive.co.uk/incoming/article13777301.ece/ALTERNATES/s1200d/DMR_NEC_171017leazes_01.jpg);
+  ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.top{
+background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/2048px-Soccerball.svg.png);
+  border-radius: 50%;
+  width:100px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  
+   
+  
+ 
+  
+ 
+}
+.Controller{
+    width: 100%;
+    height: 225px;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: rgb(4, 41, 9);
+    margin:20px auto;
+    
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 0.9cm;
+    
+}
+i{
+    margin-top: 10px;
+    width: 10%;
+    font-size: 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: auto;
+    padding: 12px 8px;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+   
+}
+button{
+
+
+box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
+    padding: 1.25rem 2rem;
+    font-size: 20px;
+    width: 40%;
+    margin: auto;
+    margin-top: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0.8cm;
+    
+margin-left: 50px;
+     background-color: #000101;
+     color: white;
+}
+button:hover{
+  color: red;
+  border: 3px solid red;
+}
+i:hover{
+  color: red;
+  border:3px solid red;
+}
